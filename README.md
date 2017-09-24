@@ -9,9 +9,9 @@ $ ./rorschach -h
 Usage: rorschach [options] ROOT
 
 Options:
-    -h          Print this help message
-    -f RULES    Load rules from this file (default is rules)
-    -t SECONDS  Time between scans (default is 5 seconds)
+    	-h          Print this help message
+   	-f RULES    Load rules from this file (default is rules)
+	-t SECONDS  Time between scans (default is 5 seconds)
 
 The "rules" file contains rules in the following format:
 EVENT	PATTERN    ACTION
