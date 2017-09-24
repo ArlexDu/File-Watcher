@@ -18,7 +18,7 @@ Options:
 
 
 
-*The "rules" file contains rules in the following format:*
+*NOTE: The "rules" file contains rules in the following format:*
 
 EVENT	PATTERN    ACTION
 
