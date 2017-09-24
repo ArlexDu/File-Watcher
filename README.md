@@ -3,10 +3,7 @@ File watching service called "rorschach" written in C++
 
 Scans a given root directory for changes and executes command based on user-specified rules when a change in the files is detected.
 
-TO DO:
--Fix Memory Leaks
-
-USAGE:
+## USAGE:
 
 $ ./rorschach -h
 Usage: rorschach [options] ROOT
@@ -20,3 +17,6 @@ The "rules" file contains rules in the following format:
 EVENT	PATTERN    ACTION
 
 eg: MODIFY    *.c    cc -o ${BASEPATH} ${FULLPATH}
+
+## TO DO:
+-Fix Memory Leaks
