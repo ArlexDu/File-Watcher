@@ -8,16 +8,17 @@ Scans a given root directory for changes and executes command based on user-spec
 $ ./rorschach -h
 Usage: rorschach [options] ROOT
 
-Options:
+'Options:
 
 -h          Print this help message
 
 -f RULES    Load rules from this file (default is rules)
 
--t SECONDS  Time between scans (default is 5 seconds)
+-t SECONDS  Time between scans (default is 5 seconds)'
 
 
-The "rules" file contains rules in the following format:
+
+*The "rules" file contains rules in the following format:*
 EVENT	PATTERN    ACTION
 
 eg: MODIFY    *.c    cc -o ${BASEPATH} ${FULLPATH}
