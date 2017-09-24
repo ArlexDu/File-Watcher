@@ -1,0 +1,1 @@
+MODIFY	*.txt	echo 	The basename is ${BASEPATH}
