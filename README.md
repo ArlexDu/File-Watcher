@@ -17,7 +17,7 @@ Options:
 -t SECONDS  Time between scans (default is 5 seconds)
 
 
-
+---
 *NOTE: The "rules" file contains rules in the following format:*
 
 EVENT	PATTERN    ACTION
